@@ -1,0 +1,2 @@
+# This code runs on Linux so it makes sense to LF line-endings
+training/*           text eol=lf
