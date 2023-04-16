@@ -1,0 +1,14 @@
+name: myenv
+channels:
+  - defaults
+dependencies:
+  - python=3.9
+  - pytorch-cuda=11.8
+  - pytorch
+  - torchvision
+  - tqdm
+  - moviepy
+  - ipywidgets
+  - ffmpeg
+  - matplotlib
+prefix: /home/pekka/anaconda3/envs/myenv
