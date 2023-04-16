@@ -7,7 +7,7 @@ An experiment with learned image filters for small GLSL shaders. Based on the [Î
 This repository is split into two parts:
 
 - **renderer**, a Windows C++ OpenGL renderer, and
-- **training**, a Jupyter notebook for training the filters with PyTorch.
+- **training**, a Jupyter [notebook](https://github.com/seece/SingleImageNCAFiltering/blob/main/training/micro_nca_filtering.ipynb) for training the filters with PyTorch.
 
 Unfortunately the first runs only on Windows and the second one on Linux. I've used Windows 10 with WSL myself to run everything.
 
@@ -26,6 +26,8 @@ I used four channel images to make it easier to implement on the C++ side. With 
 The loss function is a combination of a "content" and "style" losses just like in style transfer tasks. Increasing the content loss weight makes results sharper but with less contrast:
 
 ![Content weight factor comparison.](docs/content_weight_comparison.png)
+
+Download a short video demonstration of the final filter: [processing.mp4](https://github.com/seece/SingleImageNCAFiltering/raw/main/docs/processing.mp4).
 
 ### Is this better than the alternatives?
 
