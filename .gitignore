@@ -1,0 +1,3 @@
+training/*.pt
+training/*.mp4
+training/__pycache__/

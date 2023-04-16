@@ -1,0 +1,8 @@
+.vs/
+Debug/
+blossom/Debug/
+blossom/blossom.vcxproj.user
+*.data
+*.png
+Release
+blossom/*.html
